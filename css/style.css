@@ -57,7 +57,7 @@ html {
 }
 
 .container-tittle__ppl{
-    background-image: url(/image/desing.jpg);
+    background-color: #2F303A;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -85,7 +85,7 @@ html {
     text-decoration: none;
     font-size: 1.4rem;
     font-weight: bold;
-    margin-left: 45rem;
+    margin-left: 55rem;
     padding: 1rem;
     cursor: pointer;
 }
@@ -100,18 +100,8 @@ html {
     margin-right: 7rem;
 }
 
-.image-carrusel1,
-.image-carrusel2,
-.image-carrusel3,
-.image-carrusel4 {
-    background-color: var(--colorGrisClaro);
-    text-align: center;
-    margin-left: 3rem;
-    margin-right: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-   
-}
+
+
 .image-container-carrusel{
     width: 6rem;
 
@@ -191,59 +181,9 @@ html {
     color: var(--grisObscuro);
 }
 
-.social {
-    display: block;
-    margin-bottom: 1rem;
-}
 
-.icon-instagram
-.icon-twitter
-.icon-facebook2
-.icon-linkedin{
-    flex: auto;
-    width: 2rem;
-    height: 2rem;
-    gap: 5rem;
-}
 
-.icons-social{
-    flex: auto;
-    width: 2rem;
-    height: 2rem;
-    gap: 5rem;
-}
 
-/***CSS CLIENTES***/
-.container-clients{
-    background-color: var(--colorBlanco);
-    padding-top: 3rem;
-    padding-bottom: 7rem;
-}
-
-.tittle-clients{
-    font-family: var(--TituloPrincipal);
-    text-align: center;
-    font-weight: 900;
-}
-
-.container-ppl__clientes{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-}
-
-.clients-color {
-    text-align: center;
-    background-color: var(--otroGris);
-    margin-left: 3rem;
-    margin-right: 3rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.container-image__clientes {
-    width: 2rem;
-    height: 2rem;
-}
 
 /***PORTAFOLIO***/
 
